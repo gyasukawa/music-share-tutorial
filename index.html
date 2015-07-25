@@ -1,13 +1,19 @@
 <!DOCTYPE HTML>
 <html lang="em">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+    <script src="http://cdn.pubnub.com/pubnub-3.7.10.min.js"></script>
+    <script src="main.js"></script>
+    <script>Parse.initialize("applicationId", "javaScriptKey");</script>
   </head>
 
   <body>
-
     <div class="container">
       <ul class="grid">
         <li>
@@ -34,12 +40,6 @@
       <table id="beats">
       </table>
     </div>
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <script src="https://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
-    <script src="http://cdn.pubnub.com/pubnub-3.7.10.min.js"></script>
-    <script src="main.js"></script>
-    <script>Parse.initialize("applicationId", "javaScriptKey");</script>
   </body>
+
 <html>
