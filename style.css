@@ -4,3 +4,52 @@
   width: 360px;
   text-align: center;
 }
+
+.container h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 60px;
+}
+
+ul.grid {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 360px;
+}
+
+.square {
+  margin: 10px;
+  float: left;
+}
+
+.square button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-bottom: 4px solid #000;
+  background: #19B5FE;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+.square button:hover {
+  background: #6BB9F0;
+}
+
+.square button:active {
+  border-bottom: 4px solid #666;
+}
+
+.square button.active {
+  background: #B7425A;
+}
+
+.square button.active:hover{
+  background: #9E374C;
+}
+
+table {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
